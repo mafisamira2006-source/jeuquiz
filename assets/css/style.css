@@ -1,0 +1,45 @@
+body{
+     background : url('../image/tête\ d\'ampoule.jpeg')
+     
+}
+
+#Quiz{
+   display: flex;
+   justify-content: center; 
+   font-family: Arial, Helvetica, sans-serif;color: rgba(0, 0, 255, 0.747);
+   text-align: center;
+}
+#question{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300vh;
+    padding: 100px;color: brown;
+    text-decoration: underline;
+
+
+
+}
+#reponse{
+    margin: 300px;color: blueviolet;
+    font-style: oblique;
+
+}
+button{ 
+    color: rgba(255, 255, 255, 0.616);
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: black;
+    margin: 300px;
+
+
+
+}
+.centre{
+    background-color:rgba(0, 0, 0, 0.751);
+    background-size: cover;
+    padding: 20px 20px 30px 40px;
+    
+}
+.cacher {
+    display: none;
+}
